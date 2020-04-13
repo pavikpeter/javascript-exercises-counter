@@ -6,6 +6,8 @@ div{
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px;
+    position: relative;
+    top: 50px;
     
 }
 button{
@@ -13,4 +15,8 @@ button{
 }
 h2, h1{
     text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
 }
